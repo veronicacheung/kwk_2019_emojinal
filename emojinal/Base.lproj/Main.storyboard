@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="emojinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymW-3x-xsc">
-                                <rect key="frame" x="60" y="188" width="294" height="60"/>
+                                <rect key="frame" x="60" y="130" width="255" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="1. 🦇🦸🏻‍♂️🃏">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -29,13 +29,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess The Movie!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MmS-hv-OUP">
-                                <rect key="frame" x="80" y="118" width="254" height="36"/>
+                                <rect key="frame" x="50" y="60" width="275" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0078431372549019607" green="0.15294117647058825" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91z-qn-sIw">
-                                <rect key="frame" x="80" y="253" width="254" height="60"/>
+                                <rect key="frame" x="80" y="195" width="215" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="2. ❄️👱🏻‍♀️🏰">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,7 +45,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKR-Rb-7Es">
-                                <rect key="frame" x="80" y="318" width="254" height="60"/>
+                                <rect key="frame" x="80" y="260" width="215" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="3. 👸🏼❤️🐗">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EM4-de-a6I">
-                                <rect key="frame" x="80" y="448" width="254" height="60"/>
+                                <rect key="frame" x="80" y="390" width="215" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="5. 🕷🕸🚶🏻‍♂️">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -65,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtL-II-h6X">
-                                <rect key="frame" x="90" y="383" width="244" height="60"/>
+                                <rect key="frame" x="90" y="325" width="205" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="4. 👦🏻⚡️🧙‍♂️ ">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,7 +75,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ws-sr-khH">
-                                <rect key="frame" x="80" y="513" width="254" height="60"/>
+                                <rect key="frame" x="80" y="455" width="215" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="6. 👩🏽‍💼✏️🚀">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -85,7 +85,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc1-5k-rLg">
-                                <rect key="frame" x="80" y="578" width="254" height="60"/>
+                                <rect key="frame" x="80" y="520" width="215" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="7. 👦🏼🏠🎄">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udg-E0-2E3">
-                                <rect key="frame" x="80" y="708" width="254" height="60"/>
+                                <rect key="frame" x="80" y="650" width="215" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="9. 👦👽🚲">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -105,7 +105,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGn-Sz-1tL">
-                                <rect key="frame" x="60" y="773" width="274" height="60"/>
+                                <rect key="frame" x="60" y="715" width="235" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="10. 🤠👨‍🚀🧸">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEH-mc-HBP">
-                                <rect key="frame" x="80" y="643" width="254" height="60"/>
+                                <rect key="frame" x="80" y="585" width="215" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="8. 👴🏻📒💑">
                                     <color key="titleColor" red="0.0078431372550000003" green="0.1529411765" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -127,10 +127,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.97647058823529409" green="0.83529411764705885" blue="0.55686274509803924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MmS-hv-OUP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="2Xg-Vc-MQr"/>
+                            <constraint firstItem="MmS-hv-OUP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="2Xg-Vc-MQr"/>
                             <constraint firstItem="Pc1-5k-rLg" firstAttribute="top" secondItem="9Ws-sr-khH" secondAttribute="bottom" constant="5" id="8zI-vx-8E6"/>
                             <constraint firstItem="cEH-mc-HBP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="Cb2-Hi-iKF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MmS-hv-OUP" secondAttribute="trailing" constant="80" id="Djw-bk-7Au"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MmS-hv-OUP" secondAttribute="trailing" constant="50" id="Djw-bk-7Au"/>
                             <constraint firstItem="91z-qn-sIw" firstAttribute="top" secondItem="ymW-3x-xsc" secondAttribute="bottom" constant="5" id="GLr-Zs-OfY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pc1-5k-rLg" secondAttribute="trailing" constant="80" id="HRv-gm-NYo"/>
                             <constraint firstItem="9Ws-sr-khH" firstAttribute="top" secondItem="EM4-de-a6I" secondAttribute="bottom" constant="5" id="Hdf-NE-o5W"/>
@@ -139,7 +139,7 @@
                             <constraint firstItem="udg-E0-2E3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="Kzz-9q-IwW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ymW-3x-xsc" secondAttribute="trailing" constant="60" id="Ler-24-Tly"/>
                             <constraint firstItem="EKR-Rb-7Es" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="Lfa-Zb-pPH"/>
-                            <constraint firstItem="MmS-hv-OUP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="PWa-hO-bZl"/>
+                            <constraint firstItem="MmS-hv-OUP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="PWa-hO-bZl"/>
                             <constraint firstItem="FtL-II-h6X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="QoC-Is-gUV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Ws-sr-khH" secondAttribute="trailing" constant="80" id="RFB-ny-ps3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="udg-E0-2E3" secondAttribute="trailing" constant="80" id="VCG-87-GLp"/>
